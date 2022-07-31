@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Spline Sans Mono, monospace;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 5.6rem;
+    margin: 50px 50px 30px 50px;
+    color: #265c5c;
+    line-height: 2;
+}
+
+h2 {
+    font-family: Spline Sans Mono, monospace;
+    font-size: 1.4rem;
+    color: #3b7c7c;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Spline Sans Mono, monospace;
+    color: #11999E;
+    font-size: 1rem;
+}
+
+div {
+    padding: 25px;
+}
+
+a {
+    color: #11999E;
+    margin: 0 15px;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+hr {
+    border-style: dotted hidden hidden hidden;
+    width: 5%;
+    padding: 0 auto;
+    border-width: 10px;
+    color: #FF7600;
+    margin: 100px auto;
+}
+
+/* ======================= Classes ======================= */
+
+.top-container {
+    background-color: #B5EAEA;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.middle-container {
+    background-color: #EDF6E5;
+    position: relative;
+    padding: 100px 0;
+}
+
+.bottom-container {
+    background-color: #B5EAEA;
+    padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 30px;
+    right: 25%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+.mountain {
+    display: block;
+    margin: 0 auto;
+}
+
+.program-img {
+    width: 30%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cook-img {
+    width: 30%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.workout-img {
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+    padding: 80px;
+}
+
+.skills {
+    position: relative;
+    padding: 0;
+}
+
+.profile {
+    width: 700px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.contact-me-paragraph {
+    margin: 40px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.copyright {
+    height: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #265c5c;
+    background-image: -webkit-linear-gradient(top, #49a1ad, #49a1ad);
+    background-image: -moz-linear-gradient(top, #49a1ad, #49a1ad);
+    background-image: -ms-linear-gradient(top, #49a1ad, #49a1ad);
+    background-image: -o-linear-gradient(top, #49a1ad, #49a1ad);
+    background-image: linear-gradient(to bottom, #49a1ad, #49a1ad);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3b7c7c;
+    text-decoration: none;
+  }
