@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: Spline Sans Mono, monospace;
+    min-width : 100vh;
 }
 
 h1 {
@@ -71,12 +72,12 @@ hr {
 .top-cloud {
     position: absolute;
     top: 30px;
-    right: 25%;
+    right: 10%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 25%;
+    left: 10%;
     top: 40%;
 }
 
